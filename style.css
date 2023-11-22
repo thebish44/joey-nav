@@ -1,0 +1,37 @@
+header {
+    background-color: #0B1C51;
+    color: #fff;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 52px;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 0 20px;
+}
+
+
+@media all and (min-width: 600px) {
+    header {
+        flex-direction: row;
+        align-items: space-between;
+        justify-content: space-between;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+}
